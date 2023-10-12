@@ -11,7 +11,7 @@
         &__item {
             background-color: #13151d;
             margin-bottom: 16px;
-            
+
 
             &__question {
                 color: #fff;
@@ -38,6 +38,20 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+                li {
+                    margin-top: 16px;
+                }
+
+                p {
+                    margin: 0;
+                }
+
+                ul {
+                    list-style: disc;
+                    margin-block: 0 16px;
+                    padding-inline-start: 40px;
+                }
             }
 
             &--is-open {

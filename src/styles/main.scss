@@ -4,6 +4,7 @@
 @use 'plans';
 @use 'available-devices';
 @use 'faq';
+@use 'footer';
 
 @font-face {
     font-family: Avenir;
@@ -37,6 +38,7 @@
 
 body {
     background-color: variaveis.$corDeFundo;
+    line-height: 30px
 }
 
 .title {
